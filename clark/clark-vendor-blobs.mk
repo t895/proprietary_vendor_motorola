@@ -40,6 +40,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/etc/firmware/left.tfa9890_ringtone_table.preset \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.config:system/etc/firmware/right.tfa9890.music.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.eq:system/etc/firmware/right.tfa9890.music.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.config:system/etc/firmware/right.tfa9890.ringtone.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.eq:system/etc/firmware/right.tfa9890.ringtone.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.speaker:system/etc/firmware/right.tfa9890.speaker \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.config:system/etc/firmware/right.tfa9890.voice.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.eq:system/etc/firmware/right.tfa9890.voice.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_music_table.preset:system/etc/firmware/right.tfa9890_music_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1b12.patch:system/etc/firmware/right.tfa9890_n1b12.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1c2.patch:system/etc/firmware/right.tfa9890_n1c2.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_ringtone_table.preset:system/etc/firmware/right.tfa9890_ringtone_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_voice_table.preset:system/etc/firmware/right.tfa9890_voice_table.preset \
     vendor/motorola/clark/proprietary/etc/firmware/vrgain.bin:system/etc/firmware/vrgain.bin \
     vendor/motorola/clark/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/motorola/clark/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -172,7 +184,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:system/vendor/lib/libchromatix_ov5693_snapshot.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_snapshot_night.so:system/vendor/lib/libchromatix_ov5693_snapshot_night.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_video.so:system/vendor/lib/libchromatix_ov5693_video.so \
+    vendor/motorola/clark/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/motorola/clark/proprietary/bin/perfd:system/bin/perfd \
     vendor/motorola/clark/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/motorola/clark/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/motorola/clark/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/clark/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
@@ -220,6 +236,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/motorola/clark/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/motorola/clark/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/clark/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/motorola/clark/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/motorola/clark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -231,6 +258,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/motorola/clark/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/motorola/clark/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/motorola/clark/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/motorola/clark/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/motorola/clark/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -290,4 +324,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/firmware/synaptics-s3528ar-15071401-1e29b4-clark.tdat:system/etc/firmware/synaptics-s3528ar-15071401-1e29b4-clark.tdat \
     vendor/motorola/clark/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/clark/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
+    vendor/motorola/clark/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
+    vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
     vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon
