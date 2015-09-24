@@ -17,12 +17,30 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/clark/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/clark/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/motorola/clark/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/motorola/clark/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/motorola/clark/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/motorola/clark/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/clark/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/motorola/clark/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/motorola/clark/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/motorola/clark/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/motorola/clark/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/motorola/clark/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/motorola/clark/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/motorola/clark/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/clark/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
     vendor/motorola/clark/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
@@ -61,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/clark/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/motorola/clark/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/motorola/clark/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -72,6 +91,108 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/clark/proprietary/lib/libAisAdapter.so:system/lib/libAisAdapter.so \
     vendor/motorola/clark/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
+    vendor/motorola/clark/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/motorola/clark/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
+    vendor/motorola/clark/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
+    vendor/motorola/clark/proprietary/lib/libjscore.so:system/lib/libjscore.so \
+    vendor/motorola/clark/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
+    vendor/motorola/clark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/motorola/clark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/clark/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/clark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/motorola/clark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_sensor_debug.so:system/vendor/lib/libmmcamera2_sensor_debug.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_demosaic44.so:system/vendor/lib/libmmcamera_isp_demosaic44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:system/vendor/lib/libmmcamera_isp_bg_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:system/vendor/lib/libmmcamera_isp_cs_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bf_scale_stats44.so:system/vendor/lib/libmmcamera_isp_bf_scale_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clf44.so:system/vendor/lib/libmmcamera_isp_clf44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:system/vendor/lib/libmmcamera_isp_ihist_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:system/vendor/lib/libmmcamera_isp_rs_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:system/vendor/lib/libmmcamera_isp_scaler_encoder44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_mot_imx230.so:system/vendor/lib/libmmcamera_mot_imx230.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so:system/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_sony_imx230_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_eeprom.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_vstab_module.so:system/vendor/lib/libmmcamera_vstab_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:system/vendor/lib/libmmcamera_isp_color_correct40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bf_stats44.so:system/vendor/lib/libmmcamera_isp_bf_stats44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff44.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bpc44.so:system/vendor/lib/libmmcamera_isp_bpc44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bcc44.so:system/vendor/lib/libmmcamera_isp_bcc44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_abf44.so:system/vendor/lib/libmmcamera_isp_abf44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:system/vendor/lib64/libmmcamera2_sensor_debug.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+    vendor/motorola/clark/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/motorola/clark/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
+    vendor/motorola/clark/proprietary/lib/libAisAdapter.so:system/lib/libAisAdapter.so \
+    vendor/motorola/clark/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/clark/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/clark/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
     vendor/motorola/clark/proprietary/lib/libbson.so:system/lib/libbson.so \
@@ -80,79 +201,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/clark/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/motorola/clark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/clark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
     vendor/motorola/clark/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/clark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_sensor_debug.so:system/vendor/lib/libmmcamera2_sensor_debug.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_abf44.so:system/vendor/lib/libmmcamera_isp_abf44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bcc44.so:system/vendor/lib/libmmcamera_isp_bcc44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bf_scale_stats44.so:system/vendor/lib/libmmcamera_isp_bf_scale_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bf_stats44.so:system/vendor/lib/libmmcamera_isp_bf_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:system/vendor/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_bpc44.so:system/vendor/lib/libmmcamera_isp_bpc44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_clf44.so:system/vendor/lib/libmmcamera_isp_clf44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:system/vendor/lib/libmmcamera_isp_color_correct40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:system/vendor/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_demosaic44.so:system/vendor/lib/libmmcamera_isp_demosaic44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:system/vendor/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff44.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:system/vendor/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:system/vendor/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_mot_imx230.so:system/vendor/lib/libmmcamera_mot_imx230.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so:system/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_sony_imx230_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_eeprom.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_vstab_module.so:system/vendor/lib/libmmcamera_vstab_module.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_mot_imx230_common.so:system/vendor/lib/libchromatix_mot_imx230_common.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_mot_imx230_common_ihdr.so:system/vendor/lib/libchromatix_mot_imx230_common_ihdr.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_mot_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx230_cpp_hfr_120.so \
@@ -189,21 +240,117 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/motorola/clark/proprietary/bin/perfd:system/bin/perfd \
     vendor/motorola/clark/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/motorola/clark/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/motorola/clark/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/motorola/clark/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/clark/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/librmp.so:system/vendor/lib64/librmp.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsi.so:system/vendor/lib64/libsi.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libSSEPKCS11.so:system/vendor/lib64/libSSEPKCS11.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/clark/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/motorola/clark/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
     vendor/motorola/clark/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/motorola/clark/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
+    vendor/motorola/clark/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/motorola/clark/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/motorola/clark/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/clark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libSSEPKCS11.so:system/vendor/lib/libSSEPKCS11.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/motorola/clark/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/clark/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/clark/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/motorola/clark/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/clark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/motorola/clark/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/clark/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libscveORC_skel.so:system/vendor/lib/rfsa/adsp/libscveORC_skel.so \
+    vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/motorola/clark/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/motorola/clark/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/motorola/clark/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/motorola/clark/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/clark/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
+    vendor/motorola/clark/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/motorola/clark/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/clark/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/clark/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -220,48 +367,59 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/motorola/clark/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/motorola/clark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/motorola/clark/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
-    vendor/motorola/clark/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/motorola/clark/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/motorola/clark/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/motorola/clark/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/motorola/clark/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/motorola/clark/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/motorola/clark/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/motorola/clark/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/clark/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/motorola/clark/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/motorola/clark/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/motorola/clark/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/motorola/clark/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/motorola/clark/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/motorola/clark/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/motorola/clark/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/motorola/clark/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/motorola/clark/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/motorola/clark/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/motorola/clark/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/motorola/clark/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+    vendor/motorola/clark/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/motorola/clark/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
@@ -274,6 +432,31 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/motorola/clark/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/motorola/clark/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/motorola/clark/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/motorola/clark/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/clark/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/clark/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
@@ -288,28 +471,53 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/motorola/clark/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/motorola/clark/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/motorola/clark/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/motorola/clark/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/motorola/clark/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/motorola/clark/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
+    vendor/motorola/clark/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/clark/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/clark/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/clark/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -317,12 +525,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/clark/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/clark/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/clark/proprietary/lib64/libadropbox.so:system/lib64/libadropbox.so \
     vendor/motorola/clark/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/clark/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/clark/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/clark/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/clark/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/motorola/clark/proprietary/lib64/libadropbox.so:system/lib64/libadropbox.so \
     vendor/motorola/clark/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/motorola/clark/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -330,10 +538,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/clark/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/clark/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/clark/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/clark/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
@@ -344,4 +550,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
     vendor/motorola/clark/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
-    vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon
+    vendor/motorola/clark/proprietary/lib64/hw/lights.msm8992.so:system/lib64/hw/lights.msm8992.so \
+    vendor/motorola/clark/proprietary/lib/hw/lights.msm8992.so:system/lib/hw/lights.msm8992.so \
+    vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/clark/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/motorola/clark/proprietary/vendor/lib/hw/activity_recognition.msm8992.so:system/vendor/lib/hw/activity_recognition.msm8992.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/hw/activity_recognition.msm8992.so:system/vendor/lib64/hw/activity_recognition.msm8992.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/motorola/clark/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so
