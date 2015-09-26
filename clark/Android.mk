@@ -18,7 +18,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),clark)
 
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := MotGeoFenceSvc
 LOCAL_MODULE_OWNER := motorola
