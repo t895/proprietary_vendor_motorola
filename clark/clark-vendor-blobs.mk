@@ -562,7 +562,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libactuator_mot_lc898212xd_camcorder.so:system/vendor/lib/libactuator_mot_lc898212xd_camcorder.so \
     vendor/motorola/clark/proprietary/vendor/lib/libactuator_mot_lc898212xd_camera.so:system/vendor/lib/libactuator_mot_lc898212xd_camera.so \
     vendor/motorola/clark/proprietary/vendor/lib/libactuator_mot_lc898212xd.so:system/vendor/lib/libactuator_mot_lc898212xd.so \
-    vendor/motorola/clark/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
-    vendor/motorola/clark/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/motorola/clark/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/motorola/clark/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml
+    vendor/motorola/clark/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so
