@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/clark/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/motorola/clark/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/motorola/clark/proprietary/etc/permissions/com.motorola.camera.xml:system/etc/permissions/com.motorola.camera.xml \
     vendor/motorola/clark/proprietary/etc/permissions/com.motorola.gallery.xml:system/etc/permissions/com.motorola.gallery.xml \
     vendor/motorola/clark/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/clark/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
