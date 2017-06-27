@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/motorola/clark/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/motorola/clark/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/motorola/clark/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/clark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/clark/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
     vendor/motorola/clark/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
@@ -328,7 +329,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/clark/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/motorola/clark/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/motorola/clark/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/motorola/clark/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/motorola/clark/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
@@ -461,6 +461,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/motorola/clark/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/motorola/clark/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/motorola/clark/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
     vendor/motorola/clark/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/clark/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -559,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/motorola/clark/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/motorola/clark/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/motorola/clark/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
@@ -607,6 +607,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libsi.so:system/vendor/lib64/libsi.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
