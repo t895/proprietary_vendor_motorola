@@ -660,5 +660,4 @@ PRODUCT_PACKAGES += \
     LifetimeData \
     SprintDM \
     atfwd \
-    com.qualcomm.location \
     qcrilmsgtunnel
