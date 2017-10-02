@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/clark/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/clark/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/motorola/clark/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/clark/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/clark/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/motorola/clark/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
