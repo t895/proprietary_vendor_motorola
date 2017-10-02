@@ -529,6 +529,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/libmotocalibration.so:system/vendor/lib64/libmotocalibration.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libprotobuf-cpp-lpro.so:system/vendor/lib64/libprotobuf-cpp-lpro.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libprotobuf-cpp-preo.so:system/vendor/lib64/libprotobuf-cpp-preo.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
