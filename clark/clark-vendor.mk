@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/motorola/clark/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
     vendor/motorola/clark/proprietary/lib/soundfx/libmmieffectswrapper.so:system/lib/soundfx/libmmieffectswrapper.so \
-    vendor/motorola/clark/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
     vendor/motorola/clark/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/motorola/clark/proprietary/lib64/libadropbox.so:system/lib64/libadropbox.so \
