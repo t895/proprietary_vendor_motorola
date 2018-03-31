@@ -653,7 +653,6 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     MotoSignatureApp \
     TimeService \
-    ims \
     CNEService \
     CQATest \
     ConnMO \
@@ -664,4 +663,6 @@ PRODUCT_PACKAGES += \
     LifetimeData \
     SprintDM \
     atfwd \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    ims \
+    imssettings
